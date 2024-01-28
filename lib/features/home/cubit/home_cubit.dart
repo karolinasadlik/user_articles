@@ -1,5 +1,4 @@
 import 'package:bloc/bloc.dart';
-import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';
 import 'package:user_articles/app/core/enums.dart';
 import 'package:user_articles/domain/models/author_model.dart';

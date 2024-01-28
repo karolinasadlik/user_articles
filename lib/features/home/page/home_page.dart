@@ -42,9 +42,7 @@ class HomePage extends StatelessWidget {
                 return Center(
                   child: Text(
                     state.errorMessage ?? 'Unknown error',
-                    style: TextStyle(
-                      color: Theme.of(context).errorColor,
-                    ),
+                    style: const TextStyle(),
                   ),
                 );
             }

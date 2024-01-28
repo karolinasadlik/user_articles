@@ -1,13 +1,15 @@
+// import 'package:freezed_annotation/freezed_annotation.dart';
+// part 'home_state.freezed.dart';
 part of 'home_cubit.dart';
 
 // @freezed
 //  class HomeState with _$HomeState {
-//   const factory HomeState( {
+//    factory HomeState(
+//    List<AuthorModel> results),
+//    Status status,
+//    String? errorMessage,
+//   ) = _HomeState;
 
-//       @Default ([]) List<AuthorModel> results;
-//       @Default (Status.initial) Status status,
-//       String? errorMessage,
-//   }) = _HomeState
 //   }
 
 class HomeState {
